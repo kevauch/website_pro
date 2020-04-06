@@ -2717,6 +2717,7 @@ input, select, textarea {
 
 			#header h1 a, #header h2 a, #header h3 a, #header h4 a, #header h5 a, #header h6 a {
 				color: #ffffff;
+				font-family: Gugi;
 			}
 
 		#header header p {
@@ -3341,6 +3342,7 @@ input, select, textarea {
 			font-weight: bold;
 			float: right;
 			margin-left: 5px;
+			
 		}
 		
 		button.accordion.active:after {
@@ -3354,4 +3356,28 @@ input, select, textarea {
 			overflow: hidden;
 			transition: max-height 0.2s ease-out;
 		}
+
+		.round-button{
+			width: 45px;
+			height: 45px;
+			text-decoration: none;
+			display: inline-block;
+			outline: none;
+			cursor: pointer;
+			border-style: 3px solid white;
+			color: white;
+			font-family: Gugi;
+			font-size: 15px;
+			background-color:#0A4B8B;
+			border-radius: 100%;
+			overflow: none;
+			text-align: center;
+		  }
+
+		  .round-button:hover{
+			  background-color: white;
+			  color: #0A4B8B;
+		  }
+		  
+		  
 		
