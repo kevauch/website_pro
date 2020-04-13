@@ -134,7 +134,7 @@ input, select, textarea {
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #777;
+		color: #1E3799;
 		font-weight: 700;
 		line-height: 1em;
 		margin: 0 0 0.5625em 0;
@@ -1848,7 +1848,7 @@ input, select, textarea {
 		input[type="email"]:focus,
 		select:focus,
 		textarea:focus {
-			border-color: #4acaa8;
+			border-color: #1E3799;
 		}
 
 	select {
@@ -2518,10 +2518,10 @@ input, select, textarea {
 		-webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-		background-color: #989898;
+		background-color: white;
 		border-radius: 5px;
-		border: 0;
-		color: #ffffff !important;
+		border: 1px solid grey;
+		color: grey !important;
 		cursor: pointer;
 		display: inline-block;
 		font-weight: 700;
@@ -2618,15 +2618,18 @@ input, select, textarea {
 		input[type="reset"].primary,
 		input[type="button"].primary,
 		.button.primary {
-			background-color: #4acaa8;
-			color: #ffffff !important;
+			background-color: white;
+			color: #1e3799 !important;
+			border: 1px solid #1e3799;
+			
 		}
 
 			input[type="submit"].primary:hover,
 			input[type="reset"].primary:hover,
 			input[type="button"].primary:hover,
 			.button.primary:hover {
-				background-color: #5ed0b1;
+				background-color: #1e3799;
+				color: white !important;
 			}
 
 			input[type="submit"].primary:active,
@@ -3372,12 +3375,17 @@ input, select, textarea {
 			border-radius: 100%;
 			overflow: none;
 			text-align: center;
+			text-decoration: none;
 		  }
 
 		  .round-button:hover{
 			  background-color: white;
 			  color: #0A4B8B;
 		  }
+
+		  
+
+		  
 		  
 		  
 		
