@@ -23,7 +23,9 @@ section, summary, time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-	vertical-align: baseline;}
+	vertical-align: baseline;
+	text-decoration: none;
+}
 
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
@@ -2727,8 +2729,9 @@ input, select, textarea {
 			color: #b7eadc;
 		}
 
-		#header a {
+		#header a{
 			color: #d2f2e9;
+			text-decoration: none ;
 		}
 
 			#header a:hover {
@@ -3359,33 +3362,27 @@ input, select, textarea {
 			overflow: hidden;
 			transition: max-height 0.2s ease-out;
 		}
-
-		.round-button{
-			width: 45px;
-			height: 45px;
+		.cv{
+			height: 50px;
+			width: 50px;
+			border-radius: 50%;
+			border: 1px solid #000;
 			text-decoration: none;
-			display: inline-block;
-			outline: none;
-			cursor: pointer;
-			border-style: 3px solid white;
-			color: white;
+		}
+		  
+
+		.round-button {
+			height: 50px;
+			width: 50px;
 			font-family: Gugi;
-			font-size: 15px;
-			background-color:#0A4B8B;
-			border-radius: 100%;
-			overflow: none;
-			text-align: center;
-			text-decoration: none;
-		  }
-
-		  .round-button:hover{
-			  background-color: white;
-			  color: #0A4B8B;
-		  }
-
-		  
-
-		  
-		  
+			font-size: 13px;
+			color: white;
+			background-color: #0A4B8B;
+			border-radius: 50%;
+			border: 1px solid white;
+			text-decoration: none !important;
+			cursor: pointer;
+		}
+		
 		  
 		
